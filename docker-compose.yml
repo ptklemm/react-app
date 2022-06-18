@@ -3,7 +3,6 @@ version: "3.7"
 services:
   react-app:
     image: pklemm/react-app
-    build: ./
     ports:
       - 80:80
       - 443:443
